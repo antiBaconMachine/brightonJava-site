@@ -21,7 +21,7 @@ h1:after, h2:after {
     content: "*/";
 }
 h3 {
-    font-size: medium;
+    font-size: large;
 }
 #links ul {
     list-style-type: none;
