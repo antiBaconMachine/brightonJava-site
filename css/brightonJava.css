@@ -9,10 +9,12 @@ body {
 h1, h2  {
     font-family: monospace;
     border-bottom: 1px dotted gray;
+    margin: 20px 0;
 }
 #header {
     text-transform: uppercase;
     padding-top: 1em;
+    margin-top: 0;
 }
 h1:before, h2:before {
     content: "/*";

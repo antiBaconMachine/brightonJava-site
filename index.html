@@ -3,95 +3,90 @@
 
     <head>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-        <title>Brighton Java</title>
-
-        <!-- Framework CSS -->
-        <link rel="stylesheet" href="blueprint/screen.css" type="text/css" media="screen, projection" />
-        <link rel="stylesheet" href="blueprint/print.css" type="text/css" media="print" />
-        <!--[if IE]><link rel="stylesheet" href="blueprint/ie.css" type="text/css" media="screen, projection" /><![endif]-->
-
-        <!-- Import fancy-type plugin. -->
-        <link rel="stylesheet" href="blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection" />
+        <title>Brighton Java</title>        
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
         <link rel="stylesheet" href="css/brightonJava.css" type="text/css" media="screen, projection" />
     </head>
 
     <body>
         <div class="container">
-            <h1 id="header" class="span-24">Brighton Java</h1>
-            <div class="span-17">
-                <p>
-                    Brighton Java is a group bringing together Java users, enthusiasts and learners. Our monthly meetings will include talks, workshops and socials. 
-                    We’re mostly based at the Skiff in Gloucester St and meet on the first Wednesday of the month.
-                </p>
-                <p>
-                    We’re interested in the whole world of Java – android development, server frameworks, Groovy, interesting tools, applications, Clojure, development 
-                    methodologies and so on and so on – anything  Java.
-                </p>
-                <p>
-                    If you have any ideas for future sessions please 
-                    <a href="mailto:contact@brightonjava.com">get in touch</a>.
-                </p>
-                <h2>Upcoming Meetings</h1>
-                    <h3>4th July 2012</h3>
+            <h1 id="header" >Brighton Java</h1>
+            <div class="row">
+                <div class="span8">
                     <p>
-                        Planning meeting/social - discussing what people want from Brighton Java and ideas for future sessions. This event will be run by David Pashley and takes 
-                        place at the Eagle Pub.
+                        Brighton Java is a group bringing together Java users, enthusiasts and learners. Our monthly meetings will include talks, workshops and socials. 
+                        We’re mostly based at the Skiff in Gloucester St and meet on the first Wednesday of the month.
                     </p>
-                    <h3>1st August 2012</h3>
-                    <p class="bold">Debate: Is Server-Side Java Dead?<p>
                     <p>
-                        Java is an established server technology but how does it compare to more recent, sexier frameworks and technologies? Is Java suited for cutting-edge 
-                        development on the modern web? We've asked some speakers from the local development community to speak, propose and oppose the motion. Does Java 
-                        hold its own, or is it time to move over to more seductive new technologies?
+                        We’re interested in the whole world of Java – android development, server frameworks, Groovy, interesting tools, applications, Clojure, development 
+                        methodologies and so on and so on – anything  Java.
                     </p>
-                    <h2>Future Events</h2>
-                    <p>Some of the future events we're planning include:</p>
-                    <ul>
-                        <li>Java Pub Quiz - testing your knowledge of Java while drinking beer</li>
-                        <li>Java show and tell - let us see what you've been working on.</li>
-                        <li>War stories - when things go wrong...</li>
-                    </ul>
-            </div>
+                    <p>
+                        If you have any ideas for future sessions please 
+                        <a href="mailto:contact@brightonjava.com">get in touch</a>.
+                    </p>
+                    <h2>Upcoming Meetings</h1>
+                        <h3>4th July 2012</h3>
+                        <p>
+                            Planning meeting/social - discussing what people want from Brighton Java and ideas for future sessions. This event will be run by David Pashley and takes 
+                            place at the Eagle Pub.
+                        </p>
+                        <h3>1st August 2012</h3>
+                        <p class="bold">Debate: Is Server-Side Java Dead?<p>
+                        <p>
+                            Java is an established server technology but how does it compare to more recent, sexier frameworks and technologies? Is Java suited for cutting-edge 
+                            development on the modern web? We've asked some speakers from the local development community to speak, propose and oppose the motion. Does Java 
+                            hold its own, or is it time to move over to more seductive new technologies?
+                        </p>
+                        <h2>Future Events</h2>
+                        <p>Some of the future events we're planning include:</p>
+                        <ul>
+                            <li>Java Pub Quiz - testing your knowledge of Java while drinking beer</li>
+                            <li>Java show and tell - let us see what you've been working on.</li>
+                            <li>War stories - when things go wrong...</li>
+                        </ul>
+                </div>
 
-            <div class="span-7 last">
-                <h3>Links</h3>
-                <div id="links">
-                    <ul>
-                        <li><a href="http://www.theskiff.org/">The Skiff</a></li>
-                        <li><a href="http://brightonfarm.com/">Brighton Freelancers Farm</a></li>
-                    </ul>
-                </div>
-                <div class="twitter">
-                    <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-                    <script type="text/javascript">
-                        new TWTR.Widget({
-                            version: 2,
-                            type: 'profile',
-                            rpp: 4,
-                            interval: 30000,
-                            width: 250,
-                            height: 300,
-                            theme: {
-                                shell: {
-                                    background: '#333333',
-                                    color: '#ffffff'
+                <div class="span4 last">
+                    <h3>Links</h3>
+                    <div id="links">
+                        <ul>
+                            <li><a href="http://www.theskiff.org/">The Skiff</a></li>
+                            <li><a href="http://brightonfarm.com/">Brighton Freelancers Farm</a></li>
+                        </ul>
+                    </div>
+                    <div class="twitter">
+                        <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+                        <script type="text/javascript">
+                            new TWTR.Widget({
+                                version: 2,
+                                type: 'profile',
+                                rpp: 4,
+                                interval: 30000,
+                                width: 250,
+                                height: 300,
+                                theme: {
+                                    shell: {
+                                        background: '#333333',
+                                        color: '#ffffff'
+                                    },
+                                    tweets: {
+                                        background: '#000000',
+                                        color: '#ffffff',
+                                        links: '#4aed05'
+                                    }
                                 },
-                                tweets: {
-                                    background: '#000000',
-                                    color: '#ffffff',
-                                    links: '#4aed05'
+                                features: {
+                                    scrollbar: false,
+                                    loop: false,
+                                    live: false,
+                                    behavior: 'all'
                                 }
-                            },
-                            features: {
-                                scrollbar: false,
-                                loop: false,
-                                live: false,
-                                behavior: 'all'
-                            }
-                        }).render().setUser('brightonjava').start();
-                    </script>    
+                            }).render().setUser('brightonjava').start();
+                        </script>    
+                    </div>
                 </div>
-            </div>
+            </div><!-- end row -->
         </div>
     </body>
 </html>
